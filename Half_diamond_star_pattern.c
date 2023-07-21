@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-    int i,j,n,p,q;
-    scanf("%d",&n);
-    if(n>=3)
+    int a,i,j,x,y;
+    scanf("%d",&a);
+    if(a>=3&&a<=100)
     {
-        for(i=1;i<=n;i++)
+        for(i=1;i<=a;i++)
         {
             for(j=1;j<=i;j++)
             {
@@ -14,9 +14,9 @@ int main()
             printf("
 ");
         }
-        for(p=n-1;p>=1;p--)
+        for(x=a-1;x>=1;x--)
         {
-            for(q=1;q<=p;q++)
+            for(j=1;j<=x;j++)
             {
                 printf("*");
             }
